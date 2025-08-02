@@ -4,89 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-
-  <style>
-    /* General Styles */
-    body {
-      text-align: center;
-      background-color: #283149;
-      margin: 0;
-      padding: 0;
-      font-family: 'Arvo', cursive;
-    }
-
-    h1 {
-      font-size: 5rem;
-      color: #DBEDF3;
-      text-shadow: 3px 0 #DA0463;
-      margin-top: 50px;
-    }
-
-    /* Drum Button Container */
-    .set {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      margin: 5% auto;
-      gap: 15px;
-    }
-
-    /* Drum Buttons */
-    .drum {
-      outline: none;
-      border: 10px solid #404B69;
-      font-size: 5rem;
-      font-weight: 900;
-      color: #DA0463;
-      text-shadow: 3px 0 #DBEDF3;
-      border-radius: 15px;
-      width: 150px;
-      height: 150px;
-      text-align: center;
-      background-color: white;
-      background-size: cover;
-      background-position: center;
-    }
-
-    /* Individual Button Backgrounds */
-    .w { background-image: url(images/tom1.png); }
-    .a { background-image: url(images/tom2.png); }
-    .s { background-image: url(images/tom3.png); }
-    .d { background-image: url(images/tom4.png); }
-    .j { background-image: url(images/snare.png); }
-    .k { background-image: url(images/crash.png); }
-    .l { background-image: url(images/kick.png); }
-
-    /* Effects */
-    .pressed {
-      box-shadow: 0 3px 4px 0 #DBEDF3;
-      opacity: 0.5;
-    }
-
-    .game-over {
-      background-color: red;
-      opacity: 0.8;
-    }
-
-    /* Responsive Design for Mobile Devices */
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 3rem;
-      }
-
-      .set {
-        flex-direction: column;
-      }
-
-      .drum {
-        width: 100px;
-        height: 100px;
-        font-size: 3rem;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -102,8 +21,8 @@
     <button class="l drum">l</button>
   </div>
 
-  <script src="index.js"></script>
+
+
 </body>
-
+<script src="index.js"></script>
 </html>
-
